@@ -1,4 +1,3 @@
-// Abstract product interfaces
 interface Character {
     int getAttackPower();
 

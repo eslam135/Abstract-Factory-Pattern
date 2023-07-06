@@ -1,7 +1,5 @@
-// Client code
 public class Main {
     public static void main(String[] args) {
-        // Create a human warrior faction
         CharacterFactory characterFactory1 = new HumanWarriorFactory();
         FactionFactory factionFactory1 = new HumanWarriorFactory();
 
@@ -19,7 +17,6 @@ public class Main {
         System.out.println("Elf faction: " + elf1.getName());
         System.out.println("Dwarf faction: " + dwarf1.getName());
 
-        // Create an elf mage faction
         CharacterFactory characterFactory2 = new ElfMageFactory();
         FactionFactory factionFactory2 = new ElfMageFactory();
 

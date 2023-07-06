@@ -1,4 +1,3 @@
-// Concrete factory classes
 class HumanWarriorFactory implements CharacterFactory, FactionFactory {
     public Warrior createWarrior() {
         return new HumanWarrior();
