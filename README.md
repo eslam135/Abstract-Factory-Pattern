@@ -21,7 +21,7 @@
 ### <span style="color:lightgrey">The main difference between Abstract Factories and Factories is that Abstract Factories create families of related objects, while Factories create individual objects.
 ### An Abstract Factory Pattern is used when we need to create objects that belong to different families, but ensure that objects from the same family are compatible with each other. On the other hand, a Factory Pattern is used when we need to create individual objects, but want to delegate the creation of those objects to subclasses.
 ### Another key difference between the two patterns is that the Abstract Factory Pattern uses composition, while the Factory Pattern uses inheritance. In the Abstract Factory Pattern, the client code interacts with the objects through their abstract interfaces, while in the Factory Pattern, the client code interacts with the objects through their concrete classes.
-### In summary, the Abstract Factory Pattern is used to create families of related objects that work together, while the Factory Pattern is used to create individual objects and delegate their creation to subclasses.
+
 
 ## <span style="color:pink">How does it work?</span>
 
