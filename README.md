@@ -81,4 +81,5 @@ Use the created objects as required by the application. In our example, we could
             | defend()                 |                      | heal()                    |
             +--------------------------+                      +---------------------------+
 
-            
+# Next Patter:
+https://github.com/eslam135/Singleton-Pattern
